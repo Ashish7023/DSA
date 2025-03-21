@@ -1,18 +1,9 @@
-import java.util.Scanner;;
+import java.util.*;
 
-public class Bubble {
+public class RecursiveBubble {
 
-    public static int[] BubbleSort(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < (arr.length - 1) - i; j++) {
-                if (!(arr[j] < arr[j + 1])) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-
-            }
-        }
+    public static int[] RecursiveBubbleSort(int[] arr) {
+        
         return arr;
     }
 
@@ -30,7 +21,7 @@ public class Bubble {
             System.out.print(array[i] + ",");
         }
         System.out.println("]");
-        int[] result = BubbleSort(array);
+        int[] result = RecursiveBubbleSort(array);
         System.out.print("Sort Array is : [");
         for (int i : result) {
             System.out.print(i + ",");
