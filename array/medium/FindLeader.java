@@ -10,6 +10,7 @@ package java.medium.*;
 public class FindLeader {
 
     public static int[] findLead(int[] array){
+        
         return new int[3];
     }
     public static void main(String[] args) {
